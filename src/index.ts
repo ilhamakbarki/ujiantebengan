@@ -37,7 +37,7 @@ createConnection().then(async connection => {
     app_3000.listen(3000);
     app_3001.listen(3001);
 
-    console.log("Express server has started on port 3000. Open http://localhost:3000/users to see results");
-    console.log("Express server has started on port 3001. Open http://localhost:3001/users?relation=rides to see results");
+    console.log("Express server has started on port 3000. Open http://localhost:3000/users Untuk Melihat Hasil");
+    console.log("Express server has started on port 3001. Open http://localhost:3001/users?relation=rides Untuk Melihat Hasil");
 
 }).catch(error => console.log(error));
